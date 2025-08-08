@@ -1,0 +1,16 @@
+// Copyright 2023 Gustaw.xyz (@Gustaw.xyz)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+// Vial
+#define VIAL_KEYBOARD_UID {0x4B, 0x0D, 0x4A, 0xD1, 0x90, 0x8E, 0x5E, 0x22}
+#define VIAL_UNLOCK_COMBO_ROWS {0, 0}
+#define VIAL_UNLOCK_COMBO_COLS {0, 1}
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP1
+#define SERIAL_USART_RX_PIN GP0
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
